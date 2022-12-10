@@ -9,13 +9,23 @@ const Banner = () => {
     return (
       <div>
         <div className="hero bg-base-200">
-          <div className="hero-content gap-8 flex-col lg:flex-row-reverse">
+          <div
+            className="hero-content gap-8 flex-col lg:flex-row-reverse"
+            data-aos="fade-up"
+          >
             <img
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="3000"
+              data-aos="zoom-in"
               src={myImg}
               alt=""
               className="w-[200px] justify-end rounded-full shadow-2xl"
             />
-            <div className="mt-5">
+            <div
+              className="mt-5"
+              data-aos-duration="3000"
+              data-aos="zoom-in-up"
+            >
               <h1 className="text-5xl font-bold">Mohammad Jalal Uddin</h1>
               <p className="py-3 font-semibold text-2xl">
                 Front End Web Developer
@@ -33,7 +43,6 @@ const Banner = () => {
                 <a href="https://drive.google.com/file/d/1Z4OA4OErxkQJ4-psu-bXgcEwn-FJ75QF/view?usp=share_link">
                   <button className="btn btn-outline">Resume</button>
                 </a>
-
               </div>
             </div>
           </div>

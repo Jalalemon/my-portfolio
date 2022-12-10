@@ -3,11 +3,12 @@ import About from './About';
 import Allprojects from './Allprojects';
 import Banner from './Banner';
 import Contact from './Contact';
+import Email from './Email';
 import Skills from './Skills';
-
+ 
 const Home = () => {
     return (
-      <div>
+      <div className='mx-auto'>
         <Banner></Banner>
         <p className="m-10 font-bold text-3xl text-indigo-400 ">My Skills</p>
         <Skills></Skills>
@@ -18,6 +19,7 @@ const Home = () => {
         </div> */}
         <About></About>
         <Contact></Contact>
+       
       </div>
     );
 };

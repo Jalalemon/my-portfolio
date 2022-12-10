@@ -4,7 +4,11 @@ const About = () => {
     return (
       <div>
         <div className="hero min-h-screen">
-          <div className="hero-content  flex-col lg:flex-row">
+          <div
+            className="hero-content  flex-col lg:flex-row"
+            data-aos-duration="2000"
+            data-aos="zoom-in"
+          >
             <img src={img} alt="" className="max-w-sm rounded-lg shadow-2xl" />
             <div className="ml-12">
               <h1 className="text-3xl font-bold mb-3">About me</h1>
