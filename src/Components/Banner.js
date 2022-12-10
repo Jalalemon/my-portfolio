@@ -30,19 +30,10 @@ const Banner = () => {
               </p>
 
               <div>
-                <Pdf targetRef={ref} filename="code-example.pdf">
-                  {({ toPdf }) => (
-                    <Link to='/resume'>
-                      <button className="btn btn-primary" onClick={toPdf}>
-                        Resume
-                      </button>
-                    </Link>
-                  )}
-                </Pdf>
-                {/* <div ref={ref}>
-                  <h1>Hello CodeSandbox</h1>
-                  <h2>Start editing to see some magic happen!</h2>
-                </div> */}
+                <a href="https://drive.google.com/file/d/1Z4OA4OErxkQJ4-psu-bXgcEwn-FJ75QF/view?usp=share_link">
+                  <button className="btn btn-outline">Resume</button>
+                </a>
+
               </div>
             </div>
           </div>

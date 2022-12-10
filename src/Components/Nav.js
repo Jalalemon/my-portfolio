@@ -1,10 +1,41 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from './assets/logo.jpeg'
 const Nav = () => {
-    const menuItems = <>
-    <li>Home</li>
-    <li>About</li>
-    </>
+    const menuItems = (
+      <>
+        <li>
+          <Link to="/">
+            {" "}
+            <button className="btn btn-outline  btn-sm"> Home</button>{" "}
+          </Link>
+        </li>
+        <li>
+          <Link to="/allprojects">
+            {" "}
+            <button className="btn btn-outline  btn-sm"> Projects</button>{" "}
+          </Link>
+        </li>
+        <li>
+          <Link to="/skills">
+            {" "}
+            <button className="btn btn-outline  btn-sm"> Skills</button>{" "}
+          </Link>
+        </li>
+        <li>
+          <Link to="/about">
+            {" "}
+            <button className="btn btn-outline  btn-sm"> About</button>{" "}
+          </Link>
+        </li>
+        <li>
+          <Link to="/contact">
+            {" "}
+            <button className="btn btn-sm btn-outline"> Contact</button>{" "}
+          </Link>
+        </li>
+      </>
+    );
     return (
       <div>
         <div className="navbar bg-base-100">
@@ -38,11 +69,7 @@ const Nav = () => {
             </div>
           </div>
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu gap-5 menu-horizontal p-0">
-              
-             <li>Home</li>
-             <li>about</li>
-            </ul>
+            <ul className="menu gap-5 menu-horizontal p-0">{menuItems}</ul>
           </div>
           {/* <div className="navbar-end">
             <a className="btn">Get started</a>
