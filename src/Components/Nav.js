@@ -29,6 +29,12 @@ const Nav = () => {
           </Link>
         </li>
         <li>
+          <Link to="/blogs">
+            {" "}
+            <button className="btn btn-outline  btn-sm">Blogs</button>{" "}
+          </Link>
+        </li>
+        <li>
           <Link to="/contact">
             {" "}
             <button className="btn btn-sm btn-outline"> Contact</button>{" "}
