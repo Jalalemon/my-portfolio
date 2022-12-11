@@ -40,7 +40,7 @@ const Banner = () => {
               </p>
 
               <div>
-                <a href="https://drive.google.com/file/d/1Z4OA4OErxkQJ4-psu-bXgcEwn-FJ75QF/view?usp=share_link">
+                <a href="https://drive.google.com/file/d/1sevygt3sBBc8fHOpx2U3Kh9cdaoKeyPW/view?usp=share_link">
                   <button className="btn btn-outline">Resume</button>
                 </a>
               </div>
